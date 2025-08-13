@@ -1,0 +1,67 @@
+.container {
+    background: #C4C4C4;
+    padding: 20px;
+    width: 661px;
+}
+
+.input-field {
+    width: 500px;
+    height: 61px;
+    margin-top: 62px;
+    margin-left: 77px;
+    margin-right: 84px;
+    font-size: 48px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.repository-item {
+    background: #E27BEB;
+    border: 1px solid #7A7A7A;
+    display: flex;
+    justify-content: space-between;
+    width: 503px;
+    height: 101px;
+    margin-left: 77px;
+    font-size: 24px;
+}
+
+.repository-text {
+    overflow: hidden;
+    margin-right: 5px;
+    overflow-wrap: break-word;
+}
+
+.repository-text p {
+    margin: 2px;
+    width: 100%;
+}
+
+.dropdown-item {
+    width: 500px;
+    height: 44px;
+    background: #E3E3E3;
+    border: 1px solid black;
+    border-top: none;
+    overflow: hidden;
+    margin-left: 77px;
+    font-size: 30px;
+}
+
+.dropdown-item:hover {
+    background-color: #65CDF9;
+}
+
+.close-btn {
+    width: 47px;
+    height: 47px;
+    margin-top: 31px;
+    margin-right: 34px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url('Vector5.png'), url('Vector6.png');
+    background-repeat: no-repeat;
+}
